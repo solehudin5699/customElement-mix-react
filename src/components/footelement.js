@@ -6,7 +6,7 @@ class FootElement extends HTMLElement {
     render() {
         this.innerHTML = `
         <div class="custom-element">
-            <h1>Ini adalam custom elemen</h1>
+            <h1>Ini adalan custom elemen</h1>
         </div>
         `
         const footdes = document.createElement("foot-description");
